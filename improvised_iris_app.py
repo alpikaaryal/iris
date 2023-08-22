@@ -31,7 +31,7 @@ rf_clf = RandomForestClassifier(n_jobs = -1, n_estimators = 100)
 rf_clf.fit(X_train, y_train)
 
 # Creating a Random Forest Classifier model.
-log_reg = LogisticRegression(n_jobs = -1)
+log_reg = LogisticRegression()
 log_reg.fit(X_train, y_train)
 
 # Create a function that accepts an ML mode object say 'model' and the four features of an Iris flower as inputs and returns its name.
